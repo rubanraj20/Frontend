@@ -1,0 +1,33 @@
+    div{
+        color: black;
+        text-align: center;
+        background-color: azure;
+        font-size: 40px;
+    }
+    body{
+        font-size: 27px;
+        border: 4px solid brown;
+        width: 600px;
+        height: 600px;
+    }    
+    h2{
+    color: brown;
+    }
+
+    label {
+    color: black;
+    }
+    input {
+        font-size: 27px;
+    }
+    input:hover{
+        border-color: red;
+    }
+    input:focus::placeholder {
+        color: transparent;
+    }
+    button{
+    font-size: 30px;
+    color: aliceblue;
+    background-color:olivedrab;
+    }

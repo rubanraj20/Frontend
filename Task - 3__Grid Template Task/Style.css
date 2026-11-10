@@ -1,0 +1,37 @@
+body {
+      display: grid;
+      border: 1px solid rgb(0, 0, 0);
+      grid-template-areas:
+        "header header header"
+        "nav article article"
+        "ads article article"
+        "footer footer footer";
+      grid-template-rows: 80px 1fr 80px;
+      grid-template-columns: 400px 1fr 400px;
+      height: 100vh;
+      gap: 10px;
+    }
+    #container {
+      grid-area: header;
+      background: lightblue;
+    }
+    #navbar {
+      grid-area: nav;
+      background: lightgreen;
+    }
+    #maincontent {
+      grid-area: article;
+      background: lightyellow;
+    }
+    #siteads {
+      grid-area: ads;
+      background: lightcoral;
+    }
+    #pagefooter {
+      grid-area: footer;
+      background: lightgray;
+    }
+    header,nav,article,div,footer{
+        color: black;
+        background-color: black;
+    }

@@ -1,0 +1,17 @@
+        dl{
+            background-color:wheat;
+        }
+        dt{
+            color:red;
+            text-align: center;
+            font-family: Georgia;
+            font-size: 40px;
+            padding: 10px;
+            }
+        dd{
+            font-size: 30px;
+            text-align: center;
+            color: black;
+            text-shadow: 1px 1px white;
+            border: 6px groove black;
+        }

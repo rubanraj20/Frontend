@@ -1,0 +1,72 @@
+    body{
+        background-color: whitesmoke;
+    }
+    .buybutton {
+        font-size: 22px;
+        padding: 5px 10px;
+        background-color: whitesmoke;
+    }
+    .cart{
+        font-size: 22px;
+        padding: 5px 8px;
+        background-color: whitesmoke;
+        margin-right: 44px;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 22px;
+    }
+    ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+        padding-right: 20px;
+    }
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 100px;
+    }
+    #maincontext {
+        margin-top: 200px;
+        padding-left: 120px;
+        font-size: 30px;
+    }
+    #explorcourses{
+        padding: 10px 20px;
+        font-size: 20px;
+        color: black;
+        background-color: gold;
+        border: none;
+        border-radius: 5px;
+    }
+    #image { 
+        margin-top: -396px;
+        border: 2px solid black;
+        padding-left: 1150px;
+        width: 535px;
+        height: 535px;
+    }
+    .features{
+        padding: 25px 5% 60px;
+    }
+    .features h2{
+        text-align: center;
+        font-size: 26px;
+        margin-bottom: 45px;
+    }
+    .card1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    }
+    .meaucard {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    }
